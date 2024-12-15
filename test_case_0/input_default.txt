@@ -1,0 +1,22 @@
+program test;
+
+var a, b, c: integer;
+
+function add(x: integer, y: integer): integer;
+var result: integer;
+begin
+  result := x + y;
+  return result;
+end;
+
+begin
+
+  a := 42;
+  b := add(a, 16);
+  c := add(a, b);
+
+  c := c - 35;
+
+  write(c);
+
+end.

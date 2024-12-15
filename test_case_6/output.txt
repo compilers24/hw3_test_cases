@@ -1,0 +1,3 @@
+Expected Behavior:
+
+    Parser: Throws an error: Function 'multiply' used without declaration.

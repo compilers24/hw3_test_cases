@@ -1,0 +1,13 @@
+program ParamFunction;
+var x: integer;
+function add(a: integer, b: integer): integer;
+var c: integer;
+begin
+  c := a + b;
+  return c;
+end;
+
+begin
+  x := add(5, 7);
+  write(x);
+end.

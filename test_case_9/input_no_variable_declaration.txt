@@ -1,0 +1,4 @@
+program NoVariables;
+begin
+  write(a);
+end.

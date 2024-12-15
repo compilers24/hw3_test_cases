@@ -1,0 +1,1 @@
+Expected Behavior: Outputs 25. Ensures proper scoping and function chaining.

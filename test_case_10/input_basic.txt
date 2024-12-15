@@ -1,0 +1,11 @@
+program Test1;
+
+var a, b: integer;
+    name: string;
+
+begin
+  a := 10;
+  b := a + 5;
+  name := "John";
+  write(name);
+end.

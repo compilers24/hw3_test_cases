@@ -1,0 +1,7 @@
+program TestError2;
+
+var a: integer;
+
+begin
+  a := add(10, 20;
+end.

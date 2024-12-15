@@ -1,0 +1,3 @@
+Expected Behavior:
+
+    Parser: Throws an error: Function 'sub' missing return statement.

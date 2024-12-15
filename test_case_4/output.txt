@@ -1,0 +1,1 @@
+Expected Behavior: Outputs 12. Ensures correct parameter passing and arithmetic in function calls.

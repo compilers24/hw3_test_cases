@@ -1,0 +1,17 @@
+program MultiFunctionProgram;
+var result: integer;
+function add(n: integer): integer;
+var a: integer;
+begin
+  a := n + n;
+  return a;
+end;
+
+function sum(b: integer): integer;
+begin
+  return add(b);
+end;
+begin
+  result := sum(3);
+  write(result);
+end.

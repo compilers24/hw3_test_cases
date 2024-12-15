@@ -1,0 +1,1 @@
+Expected Behavior: Outputs 42. Tests a minimal program without variable declarations.

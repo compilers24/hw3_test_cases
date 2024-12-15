@@ -1,0 +1,26 @@
+program NestedFunctions;
+var k: integer;
+
+function sub(a: integer, b: integer): integer;
+var c: integer;
+begin
+  c := b - a;
+  return c;
+end;
+
+function add(j: integer, i: integer): integer;
+var d: integer;
+begin
+  d := j + i;
+  return d;
+end;
+
+function calculate(x: integer, y: integer, z: integer): integer;
+begin
+  return add(sub(x, y), z);
+end;
+
+begin
+  k := calculate(2, 3, 4);
+  write(k);
+end.

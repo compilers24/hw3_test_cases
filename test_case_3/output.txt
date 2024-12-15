@@ -1,0 +1,1 @@
+Expected Behavior: Outputs Hello, World!. Tests function declaration, return statement, and function call.

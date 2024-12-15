@@ -1,0 +1,13 @@
+program TestError1;
+
+var x: integer;
+function sub(n: integer): integer;
+var result: integer;
+begin
+  result := n - n;
+end;
+
+begin
+  x := 5;
+  write(x);
+end.

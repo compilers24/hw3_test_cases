@@ -1,0 +1,9 @@
+program TestError8;
+
+function greet(name: string): integer;
+begin
+  return name;
+end;
+
+begin
+end.

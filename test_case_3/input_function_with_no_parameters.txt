@@ -1,0 +1,10 @@
+program NoParamFunction;
+var a: string;
+function greet(): string;
+begin
+  return "Hello, World!";
+end;
+begin
+  a := greet();
+  write(a);
+end.

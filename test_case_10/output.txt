@@ -1,0 +1,5 @@
+Expected Behavior:
+
+    Scanner: Successfully tokenizes all identifiers, keywords, and literals.
+    Parser: Parses variable declarations and statement sequences.
+    Code Generator: Generates code to handle assignments and write operations.

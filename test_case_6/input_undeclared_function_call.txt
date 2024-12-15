@@ -1,0 +1,7 @@
+program TestError6;
+
+var a: integer;
+
+begin
+  a := multiply(10, 20);
+end.
